@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+    <h2>Elije un producto</h2>
+    </div>
+
+    <div>
+        <label>
+            Cerveza litro           $400<select id="cantidades_1" onchange="asignarCantidades()"> </select>
+        </label>
+        <br>
+    </div>
+    
+    <div>
+        <label>
+            Coca-cola 2 litros         $200<select id="cantidades_2" onchange="asignarCantidades()"> </select>
+        </label>
+        <br>
+    </div>
+    
+    <div>
+        <label>
+            Levité Manzana litro           $180<select id="cantidades_3" onchange="asignarCantidades()"> </select>
+        </label>
+        <br>
+    </div>
+    <div>
+        <label>
+            Levité Pera Litro              $180<select id="cantidades_4" onchange="asignarCantidades()"> </select>
+        </label>
+        <br>
+    </div>
+
+    <button onclick="verCarritoDeCompra ()">Ver carrito de compra</button>
+    <div id="carrito_de_compra_total">
+        
+        
+    </div>
+    <button onclick="vaciarCarrito()">Vaciar carrito</button>
+<script src="algoritmo.js"></script>
+</body>
+</html>
