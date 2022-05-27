@@ -37,6 +37,7 @@ function asignarCantidades(){
     cantidadLevitePera = document.querySelector("#cantidades_4").value;
 }
 
+//Este bucle genera los espacios en el carrito de compra según la cantidad de elementos
 for (i=1 ; i < elementosInventario ; i ++){
     document.querySelector(`#carrito_de_compra_total`).innerHTML +=`
     <h3 id="carrito_de_compra_${i}"></h3>
