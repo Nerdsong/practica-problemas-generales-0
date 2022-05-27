@@ -8,7 +8,7 @@
 </head>
 <body>
     <div>
-    <h2>Elije un producto</h2>
+    <h2>Elige un producto</h2>
     </div>
 
     <div>
@@ -39,11 +39,23 @@
     </div>
 
     <button onclick="verCarritoDeCompra ()">Ver carrito de compra</button>
-    <div id="carrito_de_compra_total">
-        
-        
+    <div id="carrito_de_compra_total">        
+    </div>
+    <div id="total_a_pagar">        
     </div>
     <button onclick="vaciarCarrito()">Vaciar carrito</button>
+    <div>
+    <label><h3>Elige el método de pago</h3>    
+        <button onclick="pagoTarjeta()">Tarjeta</button>
+        <button onclick="pagoEfetivo()">Efectivo</button>    
+    </label>
+    </div>
+    <div id="facturacion">
+        
+    </div>
+
+    <button>Confirmar compra</button>
+    
 <script src="algoritmo.js"></script>
 </body>
 </html>
